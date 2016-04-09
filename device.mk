@@ -1,4 +1,4 @@
-LOCAL_PATH := device/huawei/y550
+LOCAL_PATH := device/huawei/y635
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
@@ -8,4 +8,4 @@ endif
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := y550
+PRODUCT_NAME := y635
